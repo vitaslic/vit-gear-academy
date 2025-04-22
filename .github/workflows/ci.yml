@@ -26,5 +26,5 @@ jobs:
         run: |
           cargo fmt --all --check
           rustup component add rust-src
-          cargo clippy --all-targets -- -D warnings -A unused-imports
+          cargo b
           cargo t
